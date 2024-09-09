@@ -1,0 +1,105 @@
+/* Custom Styles for PPP Color Scheme */
+.bg-black {
+    background-color: #000000 !important; /* Black */
+}
+
+.btn-black {
+    background-color: #000000 !important; /* Black */
+    color: #ffffff !important;
+}
+
+.bg-green {
+    background-color: #006400 !important; /* Dark Green */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.btn-danger {
+    background-color: #FF0000 !important; /* Red */
+    border-color: #FF0000 !important; /* Red */
+}
+
+.btn-danger:hover {
+    background-color: #cc0000 !important; /* Darker Red */
+    border-color: #cc0000 !important;
+}
+
+/* Custom Styles for PPP Color Scheme */
+.bg-black {
+    background-color: #000000 !important; /* Black */
+}
+
+.btn-black {
+    background-color: #000000 !important; /* Black */
+    color: #ffffff !important;
+}
+
+.bg-green {
+    background-color: #006400 !important; /* Dark Green */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Updated Hero Section Styles */
+.hero {
+    background-image: url('ppp-flag.jpg'); /* Replace with the actual path or URL of the PPP flag image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay for readability */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.btn-danger {
+    background-color: #FF0000 !important; /* Red */
+    border-color: #FF0000 !important; /* Red */
+}
+
+.btn-danger:hover {
+    background-color: #cc0000 !important; /* Darker Red */
+    border-color: #cc0000 !important;
+}
